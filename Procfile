@@ -1,2 +1,1 @@
-web: python spacex_dash_app.py 
-worker: python spacex_dash_app.py 
+web: gunicorn spacex_dash_app:server
